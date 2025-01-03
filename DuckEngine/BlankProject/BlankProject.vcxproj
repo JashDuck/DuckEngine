@@ -61,7 +61,7 @@
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <PrecompiledHeader>Create</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\BlankProject\Source;C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\BlankProject\Source;C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -80,7 +80,7 @@
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
-      <AdditionalIncludeDirectories>C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\BlankProject\Source;C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\BlankProject\Source;C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

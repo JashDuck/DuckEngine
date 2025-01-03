@@ -8,3 +8,5 @@
 #define HInstance() GetModuleHandle(NULL)
 
 #include "Duck.h"
+
+#include "Common/Logger.h"

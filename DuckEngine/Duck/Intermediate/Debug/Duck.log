@@ -777,7 +777,7 @@
        Overriding target "ComputeMetaGenInputs" in project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MetaGen.targets" with target "ComputeMetaGenInputs" from project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets".
        Overriding target "GetNativeManifest" in project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" with target "GetNativeManifest" from project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets".
        Overriding target "GetTargetPathWithTargetPlatformMoniker" in project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" with target "GetTargetPathWithTargetPlatformMoniker" from project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.DesignTime.targets".
-Build started 1/3/2025 2:51:41 PM.
+Build started 1/3/2025 4:50:35 PM.
 Logging verbosity is set to: Detailed.     1>Project "C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Duck.vcxproj" on node 2 (Build target(s)).
      1>Target "EnableIntermediateOutputPathMismatchWarning" skipped, due to false condition; ('$(RestoreProjectStyle)' == 'PackageReference') was evaluated as ('' == 'PackageReference').
      1>Target "_CheckForInvalidConfigurationAndPlatform" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Duck.vcxproj" (target "SetTelemetryEnvironmentVariables" depends on it):
@@ -800,10 +800,10 @@ Logging verbosity is set to: Detailed.     1>Project "C:\Users\joshp\OneDrive\Pr
      1>Target "SetTelemetryEnvironmentVariables" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.DesignTime.targets" from project "C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Duck.vcxproj" (target "Build" depends on it):
        Using "SetEnv" task from assembly "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Build.CppTasks.Common.dll".
        Task "SetEnv"
-         VSTEL_SolutionSessionID={DAA39264-F980-4CE6-8353-ED8D2C55F459}
+         VSTEL_SolutionSessionID={16BA7D26-04BB-4251-BFAB-56326090CE4C}
        Done executing task "SetEnv".
        Task "SetEnv"
-         VSTEL_CurrentSolutionBuildID=660350711
+         VSTEL_CurrentSolutionBuildID=3275201219
        Done executing task "SetEnv".
        Task "SetEnv"
          VSTEL_SolutionPath=C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\DuckEngine.sln
@@ -819,7 +819,7 @@ Logging verbosity is set to: Detailed.     1>Project "C:\Users\joshp\OneDrive\Pr
        Task "VCMessage" skipped, due to false condition; ('$(WarnAboutIndividualManagedFiles)' == 'true') was evaluated as ('' == 'true').
        Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
      1>Done building target "_PrepareForReferenceResolution" in project "Duck.vcxproj".
-       Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('Source\Duck.cpp;Source\Platform\WIN32\IApplication.cpp'!='' and 'false'=='true' and '' != 'false').
+       Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('Source\Common\Logger.cpp;Source\Common\Time.cpp;Source\Core\PerGameSettings.cpp;...'!='' and 'false'=='true' and '' != 'false').
      1>Target "BeforeResolveReferences" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Duck.vcxproj" (target "ResolveReferences" depends on it):
      1>Done building target "BeforeResolveReferences" in project "Duck.vcxproj".
      1>Target "IgnoreJavaScriptOutputAssembly" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Duck.vcxproj" (target "AssignProjectConfiguration" depends on it):
@@ -956,7 +956,7 @@ Logging verbosity is set to: Detailed.     1>Project "C:\Users\joshp\OneDrive\Pr
        Done executing task "MakeDir".
      1>Done building target "PrepareForBuild" in project "Duck.vcxproj".
        Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
-       Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('Source\Duck.cpp;Source\Platform\WIN32\IApplication.cpp'!='' and 'false'=='true' and '' != 'false').
+       Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('Source\Common\Logger.cpp;Source\Common\Time.cpp;Source\Core\PerGameSettings.cpp;...'!='' and 'false'=='true' and '' != 'false').
        Target "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
      1>Target "ResolveSDKReferences" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Duck.vcxproj" (target "ResolveAssemblyReferences" depends on it):
        Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
@@ -988,6 +988,7 @@ Logging verbosity is set to: Detailed.     1>Project "C:\Users\joshp\OneDrive\Pr
        Done executing task "WriteLinesToFile".
        Using "Touch" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
        Task "Touch"
+         Creating "C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\Duck.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
          Touching "C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\Duck.tlog\unsuccessfulbuild".
        Done executing task "Touch".
      1>Done building target "InitializeBuildStatus" in project "Duck.vcxproj".
@@ -1082,6 +1083,9 @@ Logging verbosity is set to: Detailed.     1>Project "C:\Users\joshp\OneDrive\Pr
        Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
      1>Done building target "ComputeReferenceCLInput" in project "Duck.vcxproj".
      1>Target "WarnCompileDuplicatedFilename" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Duck.vcxproj" (target "_ClCompile" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'Logger.cpp' != 'Logger.cpp' and 'C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\' == 'C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'Time.cpp' != 'Time.cpp' and 'C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\' == 'C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'PerGameSettings.cpp' != 'PerGameSettings.cpp' and 'C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\' == 'C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\').
        Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'Duck.cpp' != 'Duck.cpp' and 'C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\' == 'C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\').
        Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'IApplication.cpp' != 'IApplication.cpp' and 'C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\' == 'C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\').
      1>Done building target "WarnCompileDuplicatedFilename" in project "Duck.vcxproj".
@@ -1107,7 +1111,7 @@ Logging verbosity is set to: Detailed.     1>Project "C:\Users\joshp\OneDrive\Pr
      1>Target "SelectClCompile" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Duck.vcxproj" (target "ClCompile" depends on it):
      1>Done building target "SelectClCompile" in project "Duck.vcxproj".
        Target "SelectAnalysisManifest" skipped, due to false condition; ('$(RunMsvcAnalysis)'=='true' and '$(SelectedFiles)'!='') was evaluated as ('false'=='true' and ''!='').
-       Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('Source\Duck.cpp;Source\Platform\WIN32\IApplication.cpp' != '' and 'false' == 'True').
+       Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('Source\Common\Logger.cpp;Source\Common\Time.cpp;Source\Core\PerGameSettings.cpp;...' != '' and 'false' == 'True').
      1>Target "ClCompile" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" from project "C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Duck.vcxproj" (target "_ClCompile" depends on it):
        Task "Delete" skipped, due to false condition; ('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'None' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName))) was evaluated as ('EditAndContinue' != '' and 'EditAndContinue' != 'None' and 'EditAndContinue' != 'OldStyle' and 'C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\vc143.pdb' != '' and !Exists(C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\vc143.pdb)).
        Task "MultiToolTask" skipped, due to false condition; ('%(ClCompile.CompilerIteration)' == 'Modules') was evaluated as ('' == 'Modules').
@@ -1116,28 +1120,37 @@ Logging verbosity is set to: Detailed.     1>Project "C:\Users\joshp\OneDrive\Pr
        Task "CL"
          Read Tracking Logs:
          	C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Intermediate\Debug\Duck.tlog\CL.read.1.tlog
-         Outputs for C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\SOURCE\DUCK.CPP|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\SOURCE\PLATFORM\WIN32\IAPPLICATION.CPP:
+         Outputs for C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\SOURCE\COMMON\LOGGER.CPP|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\SOURCE\COMMON\TIME.CPP|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\SOURCE\CORE\PERGAMESETTINGS.CPP|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\SOURCE\DUCK.CPP|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\SOURCE\PLATFORM\WIN32\IAPPLICATION.CPP:
+         	C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\LOGGER.OBJ
+         	C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\DUCK.PCH
+         	C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\TIME.OBJ
+         	C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\PERGAMESETTINGS.OBJ
          	C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\DUCK.OBJ
-         	C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\DUCK.PCH
          	C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\IAPPLICATION.OBJ
-         Source\Platform\WIN32\IApplication.cpp will be compiled because C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\SOURCE\PLATFORM\WIN32\IAPPLICATION.H was modified at 1/3/2025 2:51:39 PM.
-         Outputs for C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\SOURCE\PLATFORM\WIN32\IAPPLICATION.CPP:
-         	C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\IAPPLICATION.OBJ
-         	C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\DUCK.PCH
+         Source\Common\Logger.cpp will be compiled because C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Source\Common\Logger.cpp was modified at 1/3/2025 4:47:39 PM.
+         Source\Common\Time.cpp will be compiled because C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\SOURCE\COMMON\LOGGER.H was modified at 1/3/2025 4:46:59 PM.
+         Source\Core\PerGameSettings.cpp will be compiled because C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\SOURCE\COMMON\LOGGER.H was modified at 1/3/2025 4:46:59 PM.
+         Source\Duck.cpp will be compiled because C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\SOURCE\COMMON\LOGGER.H was modified at 1/3/2025 4:46:59 PM.
+         Source\Platform\WIN32\IApplication.cpp will be compiled because C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\SOURCE\COMMON\LOGGER.H was modified at 1/3/2025 4:46:59 PM.
+         No output for C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\SOURCE\COMMON\LOGGER.CPP|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\SOURCE\COMMON\TIME.CPP|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\SOURCE\CORE\PERGAMESETTINGS.CPP|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\SOURCE\DUCK.CPP|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\SOURCE\PLATFORM\WIN32\IAPPLICATION.CPP was found in the tracking log; source compilation required.
          Write Tracking Logs:
          	C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Intermediate\Debug\Duck.tlog\CL.write.1.tlog
          Environment Variables passed to tool:
-           VS_UNICODE_OUTPUT=1876
-           SARIF_OUTPUT_PIPE=1908
-         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\CL.exe /c /IC:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Source /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D WIN32 /D BUILD_DLL /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /permissive- /Yc"Duck.h" /Fp"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\Duck.pch" /Fo"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\\" /Fd"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Source\Platform\WIN32\IApplication.cpp
+           VS_UNICODE_OUTPUT=2696
+           SARIF_OUTPUT_PIPE=2328
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\CL.exe /c /IC:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Source /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D WIN32 /D BUILD_DLL /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /permissive- /Yc"Duck.h" /Fp"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\Duck.pch" /Fo"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\\" /Fd"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Source\Common\Logger.cpp Source\Common\Time.cpp Source\Core\PerGameSettings.cpp Source\Duck.cpp Source\Platform\WIN32\IApplication.cpp
          Tracking command:
-         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Intermediate\Debug\Duck.tlog /r C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\SOURCE\PLATFORM\WIN32\IAPPLICATION.CPP /b MSBuildConsole_CancelEvent7da76a31186d4e8aa3629b8df00a52fe  /c "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\CL.exe"  /c /IC:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Source /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D WIN32 /D BUILD_DLL /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /permissive- /Yc"Duck.h" /Fp"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\Duck.pch" /Fo"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\\" /Fd"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Source\Platform\WIN32\IApplication.cpp
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Intermediate\Debug\Duck.tlog /r "C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\SOURCE\COMMON\LOGGER.CPP|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\SOURCE\COMMON\TIME.CPP|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\SOURCE\CORE\PERGAMESETTINGS.CPP|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\SOURCE\DUCK.CPP|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\SOURCE\PLATFORM\WIN32\IAPPLICATION.CPP" /b MSBuildConsole_CancelEvent6821dfc89eeb4fbb9ec1755d49355fcc  /c "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\CL.exe"  /c /IC:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Source /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D WIN32 /D BUILD_DLL /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /permissive- /Yc"Duck.h" /Fp"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\Duck.pch" /Fo"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\\" /Fd"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Source\Common\Logger.cpp Source\Common\Time.cpp Source\Core\PerGameSettings.cpp Source\Duck.cpp Source\Platform\WIN32\IApplication.cpp
+         Logger.cpp
+         Time.cpp
+         PerGameSettings.cpp
+         Duck.cpp
          IApplication.cpp
        Done executing task "CL".
-       Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' != 'Create' and '%(ClCompile.CompileAs)'!='CppModule' and '%(ClCompile.CompilerIteration)' == '' and @(ClCompile) != '' and '$(MultiProcCL)' != 'true') was evaluated as ('Create' != 'Create' and 'CompileAsCpp'!='CppModule' and '' == '' and Source\Duck.cpp;Source\Platform\WIN32\IApplication.cpp != '' and 'false' != 'true').
+       Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' != 'Create' and '%(ClCompile.CompileAs)'!='CppModule' and '%(ClCompile.CompilerIteration)' == '' and @(ClCompile) != '' and '$(MultiProcCL)' != 'true') was evaluated as ('Create' != 'Create' and 'CompileAsCpp'!='CppModule' and '' == '' and Source\Common\Logger.cpp;Source\Common\Time.cpp;Source\Core\PerGameSettings.cpp;... != '' and 'false' != 'true').
      1>Done building target "ClCompile" in project "Duck.vcxproj".
        Target "RunSelectedFileNativeCodeAnalysis" skipped, due to false condition; ('$(RunMsvcAnalysis)'=='true' and '$(SelectedFiles)'!='') was evaluated as ('false'=='true' and ''!='').
-       Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('Source\Duck.cpp;Source\Platform\WIN32\IApplication.cpp' != '' and 'false' == 'True').
+       Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('Source\Common\Logger.cpp;Source\Common\Time.cpp;Source\Core\PerGameSettings.cpp;...' != '' and 'false' == 'True').
        Target "NoAnalysisToolEnabledWarning" skipped, due to false condition; ('$(RunCppAnalysis)'=='true' AND '$(EnableMicrosoftCodeAnalysis)'=='false' AND '$(EnableClangTidyCodeAnalysis)'=='false') was evaluated as ('false'=='true' AND 'true'=='false' AND 'false'=='false').
        Target "RunSelectedFileClangTidy" skipped, due to false condition; ('$(RunClangCppAnalysis)'=='true' AND '$(SelectedFiles)'!='') was evaluated as ('false'=='true' AND ''!='').
        Target "MicrosoftAnalysisIncompatiableWithClangCl" skipped, due to false condition; ('$(RunCppAnalysis)'=='true' AND '$(EnableMicrosoftCodeAnalysis)'=='true' AND '$(UseClangCl)'=='true') was evaluated as ('false'=='true' AND 'true'=='true' AND ''=='true').
@@ -1250,21 +1263,54 @@ Logging verbosity is set to: Detailed.     1>Project "C:\Users\joshp\OneDrive\Pr
        Task "Link"
          Write Tracking Logs:
          	C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Intermediate\Debug\Duck.tlog\link.write.1.tlog
-         	C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Intermediate\Debug\Duck.tlog\link-cvtres.write.1.tlog
-         	C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Intermediate\Debug\Duck.tlog\link-rc.write.1.tlog
+         	C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Intermediate\Debug\Duck.tlog\link.write.2u.tlog
          Read Tracking Logs:
          	C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Intermediate\Debug\Duck.tlog\link.read.1.tlog
-         	C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Intermediate\Debug\Duck.tlog\link.read.2.tlog
-         	C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Intermediate\Debug\Duck.tlog\link-cvtres.read.1.tlog
-         	C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Intermediate\Debug\Duck.tlog\link-rc.read.1.tlog
-         No output for C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\DUCK.OBJ|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\IAPPLICATION.OBJ was found in the tracking log; source compilation required.
-         No dependencies for output C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\DUCK.OBJ|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\IAPPLICATION.OBJ were found in the tracking log; source compilation required.
+         Outputs for C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\DUCK.OBJ|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\IAPPLICATION.OBJ|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\LOGGER.OBJ|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\PERGAMESETTINGS.OBJ|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\TIME.OBJ:
+         	C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\BUILD\DUCK\DEBUG\DUCK.DLL
+         	C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\DUCK.ILK
+         	C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\BUILD\DUCK\DEBUG\DUCK.PDB
+         Inputs for C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\DUCK.OBJ|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\IAPPLICATION.OBJ|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\LOGGER.OBJ|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\PERGAMESETTINGS.OBJ|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\TIME.OBJ:
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\KERNEL32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\USER32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\GDI32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\WINSPOOL.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\COMDLG32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\ADVAPI32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\SHELL32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\OLE32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\OLEAUT32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\UUID.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\ODBC32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\ODBCCP32.LIB
+         	C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\LOGGER.OBJ
+         	C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\TIME.OBJ
+         	C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\PERGAMESETTINGS.OBJ
+         	C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\DUCK.OBJ
+         	C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\IAPPLICATION.OBJ
+         	C:\WINDOWS\SYSTEM32\TZRES.DLL
+         	C:\WINDOWS\GLOBALIZATION\SORTING\SORTDEFAULT.NLS
+         	C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.38.33130\LIB\X64\MSVCPRTD.LIB
+         	C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.38.33130\LIB\X64\MSVCRTD.LIB
+         	C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.38.33130\LIB\X64\OLDNAMES.LIB
+         	C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.38.33130\LIB\X64\VCRUNTIMED.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UCRT\X64\UCRTD.LIB
+         	C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.38.33130\BIN\HOSTX64\X64\1033\LINKUI.DLL
+         	C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.38.33130\BIN\HOSTX64\X64\CVTRES.EXE
+         	C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\VC143.PDB
+         Source compilation required: input C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\IAPPLICATION.OBJ is newer than output C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\BUILD\DUCK\DEBUG\DUCK.DLL.
          Environment Variables passed to tool:
-           VS_UNICODE_OUTPUT=1832
-         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Build\Duck\Debug\Duck.dll" /INCREMENTAL /ILK:"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\Duck.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Build\Duck\Debug\Duck.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Build\Duck\Debug\Duck.lib" /MACHINE:X64 /DLL C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\Duck.obj
+           VS_UNICODE_OUTPUT=1200
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Build\Duck\Debug\Duck.dll" /INCREMENTAL /ILK:"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\Duck.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Build\Duck\Debug\Duck.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Build\Duck\Debug\Duck.lib" /MACHINE:X64 /DLL C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\Logger.obj
+         C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\Time.obj
+         C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\PerGameSettings.obj
+         C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\Duck.obj
          C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\IApplication.obj
          Tracking command:
-         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Intermediate\Debug\Duck.tlog /r "C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\DUCK.OBJ|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\IAPPLICATION.OBJ" /b MSBuildConsole_CancelEvent62e46a0cdf6049a193d8fcd4f5015d6d  /c "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Build\Duck\Debug\Duck.dll" /INCREMENTAL /ILK:"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\Duck.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Build\Duck\Debug\Duck.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Build\Duck\Debug\Duck.lib" /MACHINE:X64 /DLL C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\Duck.obj
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\Duck\Intermediate\Debug\Duck.tlog /r "C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\DUCK.OBJ|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\IAPPLICATION.OBJ|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\LOGGER.OBJ|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\PERGAMESETTINGS.OBJ|C:\USERS\JOSHP\ONEDRIVE\PROGRAMMING\C++\DUCKENGINE\DUCKENGINE\DUCK\INTERMEDIATE\DEBUG\TIME.OBJ" /b MSBuildConsole_CancelEvent9ec39d32ee53484fb4f05854d20e1681  /c "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Build\Duck\Debug\Duck.dll" /INCREMENTAL /ILK:"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\Duck.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Build\Duck\Debug\Duck.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Build\Duck\Debug\Duck.lib" /MACHINE:X64 /DLL C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\Logger.obj
+         C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\Time.obj
+         C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\PerGameSettings.obj
+         C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\Duck.obj
          C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Duck\Intermediate\Debug\IApplication.obj
             Creating library C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Build\Duck\Debug\Duck.lib and object C:\Users\joshp\OneDrive\Programming\C++\DuckEngine\DuckEngine\\Build\Duck\Debug\Duck.exp
        Done executing task "Link".
@@ -1491,4 +1537,4 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.66
+Time Elapsed 00:00:04.51
